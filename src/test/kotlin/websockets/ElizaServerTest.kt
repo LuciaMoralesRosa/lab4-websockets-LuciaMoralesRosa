@@ -87,7 +87,7 @@ class ComplexClient(
         list.add(message)
         latch.countDown()
 
-        logger.info { "En el complex: " + list.size}
+        logger.info { "En el complex: " + list.size }
 
         // 5. COMPLETE if (expression) {
         // 6. COMPLETE   sentence
